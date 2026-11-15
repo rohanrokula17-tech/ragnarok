@@ -1,4 +1,4 @@
-# Last Light Arena
+# RAGNAROK
 
 An original, offline, stylized 3D arena-survival prototype made for **Godot 4**. It uses only primitive meshes and generated materials—no Fortnite assets, branding, network services, or external downloads.
 
@@ -31,27 +31,4 @@ An original, offline, stylized 3D arena-survival prototype made for **Godot 4**.
 | R | Reload |
 | Q | Place energy cover |
 | Esc | Release mouse; click the game to recapture |
-
-## Project structure
-```text
-last_light_arena/
-├── project.godot
-├── README.md
-├── scenes/
-│   ├── main.tscn
-│   ├── player.tscn
-│   └── enemy.tscn
-└── scripts/
-    ├── game.gd
-    ├── player.gd
-    └── enemy.gd
-```
-
-## Export a Windows build
-1. In Godot, open **Editor → Manage Export Templates** and install the matching 4.x export templates.
-2. Open **Project → Export** and add a **Windows Desktop** preset.
-3. Set the output to `build/LastLightArena.exe` (create the `build` folder first).
-4. Click **Export Project**. Share the resulting EXE together with its `.pck` if Godot creates one.
-
-## Notes / next development pass
-This is a complete playable starter project, not a production-scale battle royale. It intentionally uses simple capsule characters and primitive geometry so it runs immediately without asset setup. Useful next upgrades: animated character models, sound effects, weapon pickups, multiple maps, bot navigation with NavigationRegion3D, settings/pause menu, and a proper shrinking safe zone.
+t upgrades: animated character models, sound effects, weapon pickups, multiple maps, bot navigation with NavigationRegion3D, settings/pause menu, and a proper shrinking safe zone.
